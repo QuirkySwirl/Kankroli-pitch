@@ -7,34 +7,34 @@ import { Linkedin, Twitter } from "lucide-react";
 
 const team = [
   {
-    name: "Rajesh Kumar",
+    name: "Saket Sharma",
     role: "Founder & CEO",
-    image: "https://images.unsplash.com/photo-1556157382-97eda2d62296?auto=format&fit=crop&q=80",
-    bio: "Former Google executive with 15+ years in digital transformation",
+    image: "https://res.cloudinary.com/drsprx7wk/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1730618556/Saket-modified_wkwzbi.png",
+    bio: "Veteran Entrepreneur running several successful & profitable ventures",
     linkedin: "#",
     twitter: "#"
   },
   {
-    name: "Dr. Priya Sharma",
+    name: "Dr. Vritti  Sharma",
+    role: "Chief Edutech Officer",
+    image: "https://res.cloudinary.com/drsprx7wk/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1730618556/IMG_1500-EDIT-EDIT-modified_jiws3z.png",
+    bio: "PhD, MPhil with a technical bent of mind, experienced in teaching and specializing in Educational Technology. ",
+    linkedin: "#",
+    twitter: "#"
+  },
+  {
+    name: "Kartik Iyer",
     role: "Chief Technology Officer",
-    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80",
-    bio: "PhD in Computer Science, specializing in scalable systems",
+    image: "https://res.cloudinary.com/drsprx7wk/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1730618594/Untitled_design_kidbpq.png",
+    bio: "23+ years experience in scaling enterprise solutions for large multinational corporations across the globe.",
     linkedin: "#",
     twitter: "#"
   },
   {
-    name: "Amit Patel",
-    role: "Head of Operations",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80",
-    bio: "10+ years experience in scaling operations across tier-2/3 cities",
-    linkedin: "#",
-    twitter: "#"
-  },
-  {
-    name: "Neha Gupta",
-    role: "Financial Advisor",
-    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80",
-    bio: "Former investment banker with focus on emerging markets",
+    name: "Could be You!",
+    role: "How will you contribute?",
+    image: "https://images.unsplash.com/photo-1472898965229-f9b06b9c9bbe?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    bio: "What skills & expeqrience do you bring to the table? We are open to new talent and ideas for innovative solutions",
     linkedin: "#",
     twitter: "#"
   }
