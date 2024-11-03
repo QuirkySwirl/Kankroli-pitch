@@ -18,7 +18,7 @@ const team = [
     name: "Dr. Vritti  Sharma",
     role: "Chief Edutech Officer",
     image: "https://res.cloudinary.com/drsprx7wk/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1730618556/IMG_1500-EDIT-EDIT-modified_jiws3z.png",
-    bio: "PhD, MPhil with a technical bent of mind, experienced in teaching and specializing in Educational Technology. ",
+    bio: "PhD, MPhil in imparting education, specializing in Educational Technology. ",
     linkedin: "#",
     twitter: "#"
   },
@@ -70,7 +70,7 @@ export default function Team() {
                 <CardContent className="pt-6">
                   <Avatar className="w-24 h-24 mx-auto mb-4">
                     <AvatarImage src={member.image} alt={member.name} />
-                    <AvatarFallback>{member.name.split(' ').map(n => n[0]).join('')}</AvatarFallback>
+                    <AvatarFallback>{member.name.split(" ").map(n => n[0]).join("")}</AvatarFallback>
                   </Avatar>
                   <h3 className="font-bold mb-1">{member.name}</h3>
                   <p className="text-sm text-blue-600 mb-2">{member.role}</p>
