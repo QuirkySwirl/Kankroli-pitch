@@ -1,14 +1,22 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
   images: {
-    domains: ['res.cloudinary.com', 'images.unsplash.com'],
-  },
-  typescript: {
-    ignoreBuildErrors: false,
+    unoptimized: true,
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'res.cloudinary.com'
+      },
+      {
+        protocol: 'https',
+        hostname: 'images.unsplash.com'
+      }
+    ]
   },
   eslint: {
-    ignoreDuringBuilds: true,
-  },
-}
+    ignoreDuringBuilds: true
+  }
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
