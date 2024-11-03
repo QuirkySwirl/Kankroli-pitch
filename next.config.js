@@ -1,10 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
+  images: {
+    domains: ['res.cloudinary.com', 'images.unsplash.com'],
+  },
+  typescript: {
+    ignoreBuildErrors: false,
+  },
   eslint: {
     ignoreDuringBuilds: true,
   },
-  images: { unoptimized: true },
-};
+}
 
-module.exports = nextConfig;
+module.exports = nextConfig

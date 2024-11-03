@@ -34,7 +34,7 @@ const team = [
     name: "Could be You!",
     role: "How will you contribute?",
     image: "https://images.unsplash.com/photo-1472898965229-f9b06b9c9bbe?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    bio: "What skills & expeqrience do you bring to the table? We are open to new talent and ideas for innovative solutions",
+    bio: "What skills & experience do you bring to the table? We are open to new talent and ideas for innovative solutions",
     linkedin: "#",
     twitter: "#"
   }
